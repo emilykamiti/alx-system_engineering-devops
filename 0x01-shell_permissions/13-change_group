@@ -1,1 +1,2 @@
 #!/bin/bash
+chgrp change_group hello
