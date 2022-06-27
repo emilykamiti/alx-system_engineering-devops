@@ -1,1 +1,2 @@
-my first  redirctions
+#!/bin/bash
+echo “Hello, World”
