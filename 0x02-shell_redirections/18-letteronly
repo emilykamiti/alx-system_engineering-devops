@@ -1,2 +1,3 @@
 #!/bin/bash
 grep ^[[:alpha:]] /etc/ssh/sshd_config
+tr A Z | tr c e
