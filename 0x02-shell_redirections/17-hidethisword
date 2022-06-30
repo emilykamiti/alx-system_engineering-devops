@@ -1,3 +1,2 @@
 #!/bin/bash
-17-hidethisword
-17-hidethisword
+grep -v "bin" /etc/passwd
