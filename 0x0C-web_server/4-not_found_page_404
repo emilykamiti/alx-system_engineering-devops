@@ -4,7 +4,7 @@
 
 sudo apt-get update
 sudo apt-get -y install nginx
-sudo echo "Hello world" | sudo tee /var/www/html/index.html > /dev/null
+sudo echo "Hello World!" | sudo tee /var/www/html/index.html > /dev/null
 sudo echo "Ceci n'est pas une page" | sudo tee /var/www/html/error-page.html > /dev/null
 sudo sed -i '45a \\trewrite ^/redirect_me https://www.google.com permanent;' /etc/nginx/sites-available/default
 sudo sed -i '46a \\terror_page 404 /error-page.html;' /etc/nginx/sites-available/default
