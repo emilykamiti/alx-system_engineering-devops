@@ -26,4 +26,6 @@ Misleading investigation of test file as the issue wasn't there.
 Incident escalated to asking fellow cohort 10 student, Ezra Nobrega, to take a look at the error message.
 Nobrega told me the MySQL service needed to be started before being able to interact with it.
 
-
+# For Such a Simple Mistake...
+Remember to always read the error messages and to not panic! The initial panic caused me to not rationally think and simply Google what was wrong if I could not figure it out from the line Can't connect to local MySQL server within:
+sqlalchemy.exc.OperationalError: (_mysql_exceptions.OperationalError) (2002, "Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)") (Background on this error at: http://sqlalche.me/e/e3q8)
